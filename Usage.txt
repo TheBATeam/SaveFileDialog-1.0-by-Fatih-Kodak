@@ -1,0 +1,15 @@
+
+Savefiledialog - Open a dialog to save a file..
+
+Call:  savefiledialog.exe [-h|-v] <title> <default file> <pattern> <pos>
+
+Options:
+          -h        Print this message
+          -v        Print version number
+
+Examples: savefiledialog.exe "Save as" Default.txt "All Files (*.*)|*.*"
+          savefiledialog.exe "Save As" "" "Script (*.js;*.vbs)|*.js;*.vbs"
+          savefiledialog.exe "Save As" "" "*.* (*.*)|*.*|BAT (*.bat)|*.bat" 1
+
+by Fatih Kodak
+http://www.f2ko.de
